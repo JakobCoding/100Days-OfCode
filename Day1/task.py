@@ -23,7 +23,7 @@
 
 # print(length)
 
-# Exercise Swap the contents of 2 variables without changing the names
+# Challange Swap the contents of 2 variables without changing the names
 glass1 = "milk" 
 glass2 = "water" 
 
