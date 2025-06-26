@@ -18,7 +18,17 @@
 # print(len(input("What is your name?")))
 
 # Storing input in variables 
-username = input("What is your name? ")
-length = len(username)
+# username = input("What is your name? ")
+# length = len(username)
 
-print(length)
+# print(length)
+
+# Exercise Swap the contents of 2 variables without changing the names
+glass1 = "milk" 
+glass2 = "water" 
+
+spareGlass = glass2
+glass2 = glass1 
+glass1 = spareGlass
+
+print(glass1, glass2)
