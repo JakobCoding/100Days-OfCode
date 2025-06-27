@@ -7,3 +7,6 @@ print("Hello"[-1])
 
 # Integer = Whole number
 print(123 + 456)
+
+# Floats - decimal point number (floating point number)
+print(3.14159)
