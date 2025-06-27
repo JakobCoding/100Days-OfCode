@@ -26,3 +26,6 @@ print(type(3.14))
 
 # Type Conversion / Type Casting 
 print(int("123") + int("435"))
+
+# Debug challange
+print("Number of letters in your name: " + len(input("Enter your name")))
