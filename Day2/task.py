@@ -5,3 +5,5 @@ print("Hello"[0])
 # prints last letter 
 print("Hello"[-1])
 
+# Integer = Whole number
+print(123 + 456)
