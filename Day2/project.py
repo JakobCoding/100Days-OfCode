@@ -22,8 +22,8 @@
 print("Welcome to the tip caluculator!")
 
 totalBill = float(input("What was the total bill? $"))
-tip = float(input("What percentage tip would you like to give? 10, 12, or 15? "))
-splitBetween = float(input("How many People to split the bill? "))
+tip = int(input("What percentage tip would you like to give? 10, 12, or 15? "))
+splitBetween = int(input("How many People to split the bill? "))
 
 tipPercentage = tip / 100 + 1 
 billWithTip = totalBill * tipPercentage / splitBetween
