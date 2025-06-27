@@ -12,9 +12,11 @@ print(123 + 456)
 print(3.14159)
 
 # Boolean - True or False values only 
-print(True)
+print(type(True))
 print(False)
 
 # converting data types 
 print(len(str(12345)))
 
+# checking data types
+print(type("Hello"))
