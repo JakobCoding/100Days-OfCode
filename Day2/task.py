@@ -28,4 +28,4 @@ print(type(3.14))
 print(int("123") + int("435"))
 
 # Debug challange
-print("Number of letters in your name: " + len(input("Enter your name")))
+print("Number of letters in your name: " + (str(len(input("Enter your name ")))))
