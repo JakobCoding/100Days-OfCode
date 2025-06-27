@@ -45,9 +45,8 @@ print(5 / 3) # basic divison provides a floating point number
 print( 5 // 3) # Double division lines produce a whole number (interger)
 print(2 ** 3) # exponents represents 2 to the power of 3 
 
-# PEMDAS - The order of mathematical operations 
-# Parentheses , Exponenets , Multiplication , Addition & Subtraction
-
+# PEMDASLR - The order of mathematical operations 
+# Parentheses , Exponenets , Multiplication , Addition , Subtraction & Left to Right
 #  ()
 #  **
 #  * OR /
@@ -57,3 +56,7 @@ print(2 ** 3) # exponents represents 2 to the power of 3
 print(3 * 3 + 3 / 3 - 3) # = 7
 
 # (3 * 3 = 9) + (3 / 3 = 1) - 3 therefore 9 + 1 - 3 = 7
+
+# Change the code to equal 3 
+print(3 / 3 * 3 + 3 - 3) # = 3
+print(3 * (3 + 3) / 3 - 3) # = 3
