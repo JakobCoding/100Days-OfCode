@@ -10,3 +10,7 @@ print(123 + 456)
 
 # Floats - decimal point number (floating point number)
 print(3.14159)
+
+# Boolean - True or False values only 
+print(True)
+print(False)
