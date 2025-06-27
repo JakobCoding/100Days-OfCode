@@ -74,3 +74,5 @@ weight = 84
 bmi = weight / height  ** 2
 
 print(bmi)
+print(int(bmi)) # round down or flooring 
+print(round(bmi)) # round to nearest integer 
