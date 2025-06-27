@@ -77,3 +77,16 @@ print(bmi)
 print(int(bmi)) # round down or flooring 
 print(round(bmi)) # round to nearest integer 
 print(round(bmi, 2)) # rounds to 2 decimial places 
+
+# Assignment Operator 
+score = 10
+print(score)
+# User scores a point 
+score += 1 
+print(score)
+score -= 1 
+print(score)
+score /= 2 
+print(score)
+score *= 2 
+print(score)
