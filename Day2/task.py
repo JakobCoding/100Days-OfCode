@@ -90,3 +90,10 @@ score /= 2
 print(score)
 score *= 2 
 print(score)
+
+# F strings - allow for string intopolation 
+score = 0 
+height = 1.8 
+is_winning = True
+
+print(f"Your score is = {score}, your height is {height}, You are winning = {is_winning}.")
