@@ -18,5 +18,8 @@ print(False)
 # converting data types 
 print(len(str(12345)))
 
-# checking data types
+# checking data types / type checking 
 print(type("Hello"))
+print(type(True))
+print(type(1234))
+print(type(3.14))
