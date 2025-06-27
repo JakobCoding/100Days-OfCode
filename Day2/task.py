@@ -38,3 +38,10 @@ print(type(name_of_user)) # string
 print(type(length_of_name)) # int
 
 print("Number of letters in your name: " + str(length_of_name))
+
+# Mathematical Operations 
+print("My age: " + str(39))
+print(5 / 3) # basic divison provides a floating point number
+print( 5 // 3) # Double division lines produce a whole number (interger)
+print(2 ** 3) # exponents represents 2 to the power of 3 
+
