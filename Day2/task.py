@@ -8,9 +8,13 @@ print("Hello"[-1])
 # Integer = Whole number
 print(123 + 456)
 
-# Floats - decimal point number (floating point number)
+# Floats - decimal point numbers (floating point number)
 print(3.14159)
 
 # Boolean - True or False values only 
 print(True)
 print(False)
+
+# converting data types 
+print(len(str(12345)))
+
