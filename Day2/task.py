@@ -23,3 +23,6 @@ print(type("Hello"))
 print(type(True))
 print(type(1234))
 print(type(3.14))
+
+# Type Conversion / Type Casting 
+print(int("123") + int("435"))
