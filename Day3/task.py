@@ -11,4 +11,12 @@ else:
 print(10 % 5) # modulo = 0 
 print(10 % 3) # modulo = 1
 
+# Write some code that checks if a number is odd or even 
 
+num1 = int(input("Enter a number: "))
+ 
+
+if num1 % 2 == 0: 
+    print("Even Number!")
+else:
+    print("Odd number!")
