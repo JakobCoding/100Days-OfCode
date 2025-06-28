@@ -18,7 +18,7 @@ if height >= 120:
     else:
         bill = 12
         print("Adult tickets are $12.")
-    photos = input("Would you like photos for $3? y for yes, n for no. ")
+    photos = input("Would you like to have a photo taken for $3? y for yes, n for no. ")
     if photos == "y":
         bill += 3
         
