@@ -1,24 +1,28 @@
-                 #Can you Ride the RollerCoaster
+                #Can you Ride the RollerCoaster
                  
 # If Else condition check
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
+bill = 0
 
 # Nested if Statements & elif statements
 if height >= 120:
     print("You can ride the rollercoaster") 
     age = int(input("What is your age? "))
     if age <= 12: 
+        bill = 5
         print("Child tickets are $5.")
     elif age <= 18:
+        bill = 7
         print("Youth tickets are $7.")
     else:
+        bill = 12
         print("Adult tickets are $12.")
-    photos = input("Would you like photos? y for yes, n for no. ")
+    photos = input("Would you like photos for $3? y for yes, n for no. ")
     if photos == "y":
-        print("Thats will be an extra $3, Enjoy the ride!")
-    else:
-        print("No probs, Enjoy the ride!")
+        bill += 3
+        
+    print(f"Your Total is ${bill}, Enjoy the ride!")
 else: 
     print("Sorry you have to grow taller before you can ride.")    
     
@@ -36,7 +40,7 @@ else:
     print("Odd number!")
     
     
-           # BMI Calculator with Interpretations
+            # BMI Calculator with Interpretations
 
 weight = int(input("Please enter your Weight in kilos: "))
 height = float(input("Please enter you height in meters: "))
