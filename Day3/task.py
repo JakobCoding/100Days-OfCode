@@ -88,3 +88,13 @@ if extraCheese == "Y":
 
 
 print(f"Your final bill is: ${bill}, enjoy!") 
+
+#Logical Operators
+
+# and 
+# or 
+# not
+
+#  A and B have to be true for the entire line of code to be true 
+#  C or D has to be true for the entire line of code to be true
+#  not E 
