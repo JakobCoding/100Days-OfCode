@@ -101,4 +101,7 @@ print(True and False) # False
 print(False and True) # False
 
 #  C or D has to be true for the entire line of code to be true
-#  not E 
+print(True or False) # True
+
+#  not E - reverses a condition 
+print(not True) # False
