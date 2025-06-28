@@ -6,3 +6,9 @@ if height >= 120:
     print("You can ride the rollercoaster") 
 else: 
     print("Sorry you have to grow taller before you can ride.")    
+    
+# Modulo Operator % is a binary operator and provides the remainder between 2 numbers
+print(10 % 5) # modulo = 0 
+print(10 % 3) # modulo = 1
+
+
