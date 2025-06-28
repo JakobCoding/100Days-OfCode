@@ -55,7 +55,7 @@ else:
     print("According to scienctific research algorithms you are overweight, sorry!")
     
                 
-                    # PYTHON PIZZA SERVICE
+                    # PYTHON PIZZA SERVICE #
 
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M or L: ")
@@ -81,4 +81,10 @@ if pepperoni == "Y":
     else:
         bill += 3
     
-       
+# todo: work out their final amount based on whether if they want extra cheese 
+
+if extraCheese == "Y":
+    bill += 1
+
+
+print(f"Your final bill is: ${bill}, enjoy!") 
