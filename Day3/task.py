@@ -30,4 +30,17 @@ if num1 % 2 == 0:
 else:
     print("Odd number!")
     
-#
+    
+           # BMI Calculator with Interpretations
+
+weight = int(input("Please enter your Weight in kilos: "))
+height = float(input("Please enter you height in meters: "))
+
+bmi = weight / height ** 2 
+
+if bmi <= 18.5:
+    print("Acording to science you are under weight!")
+elif bmi <= 25:
+    print("Congrats you weight is normal.. (according to science)")
+else:
+    print("According to scienctific research algorithms you are overweight, sorry!")
