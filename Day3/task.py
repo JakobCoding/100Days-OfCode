@@ -14,8 +14,8 @@ if height >= 120:
         print("Youth tickets are $7.")
     else:
         print("Adult tickets are $12.")
-    photos = input("Would you like photos? ")
-    if photos == "yes":
+    photos = input("Would you like photos? y for yes, n for no. ")
+    if photos == "y":
         print("Thats will be an extra $3, Enjoy the ride!")
     else:
         print("No probs, Enjoy the ride!")
