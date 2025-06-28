@@ -9,11 +9,16 @@ if height >= 120:
     print("You can ride the rollercoaster") 
     age = int(input("What is your age? "))
     if age <= 12: 
-        print("Please pay $5.")
+        print("Child tickets are $5.")
     elif age <= 18:
-        print("Please pay $7.")
+        print("Youth tickets are $7.")
     else:
-        print("Please pay $12.")
+        print("Adult tickets are $12.")
+    photos = input("Would you like photos? ")
+    if photos == "yes":
+        print("Thats will be an extra $3, Enjoy the ride!")
+    else:
+        print("No probs, Enjoy the ride!")
 else: 
     print("Sorry you have to grow taller before you can ride.")    
     
