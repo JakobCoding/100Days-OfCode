@@ -96,5 +96,9 @@ print(f"Your final bill is: ${bill}, enjoy!")
 # not
 
 #  A and B have to be true for the entire line of code to be true 
+print(True and True) # True
+print(True and False) # False
+print(False and True) # False
+
 #  C or D has to be true for the entire line of code to be true
 #  not E 
