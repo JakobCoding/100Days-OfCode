@@ -75,5 +75,10 @@ else:
     
 # todo: work out how much to add to their bill based on their pepporoni choice    
     
-
-        
+if pepperoni == "Y":
+    if size == "S":
+        bill += 2
+    else:
+        bill += 3
+    
+       
