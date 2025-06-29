@@ -1,4 +1,4 @@
-                         # Rock Paper Scissors Game #
+import random                      # Rock Paper Scissors #
 rock = '''
     _______
 ---'   ____)
@@ -7,7 +7,6 @@ rock = '''
       (____)
 ---.__(___)
 '''
-
 paper = '''
     _______
 ---'   ____)____
@@ -16,7 +15,6 @@ paper = '''
          _______)
 ---.__________)
 '''
-
 scissors = '''
     _______
 ---'   ____)____
@@ -25,16 +23,23 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-import random
-
+gameImages = [rock, paper, scissors]
 playerChoice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors? "))
+if playerChoice >=0 and playerChoice <= 2:
+    print(gameImages[playerChoice])
 
 computerChoice = random.randint(0, 2)
 print(f"Computer chose {computerChoice}")
 
-if playerChoice == 0 and computerChoice == 2:
+if playerChoice >=3 or playerChoice < 0:
+    print("You typed an invalid number, You lose!")
+elif playerChoice == 0 and computerChoice == 2:
     print("You win!")
+elif computerChoice == 0 and playerChoice ==2:
+    print("You lose!")
 elif computerChoice > playerChoice:
     print("You lose!")
-else: 
-    print("You typed an invalid number.")
+elif playerChoice > computerChoice:
+    print("You win!")
+elif playerChoice == computerChoice:
+    print("It's a draw!")
