@@ -5,6 +5,9 @@
 <h2>Day 4:</h2> 
 <h3>Project: Rock Paper Scissors</h3>
 
+![image](/ScreenShots/RockPaperScissors/RockPaperScissors.PNG)
+![image](/ScreenShots/RockPaperScissors/Terminal.PNG)
+
 <h2>Day 3:</h2> 
 <h3>Project: Treasure Island Adventure Game</h3>
 
