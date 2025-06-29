@@ -16,8 +16,14 @@ import random
 
 # Random Head or Tails
 
-headsOrTails = random.randint(0, 1)
-if headsOrTails == 0:
-    print("Heads")
-else:
-    print("Tails")
+# headsOrTails = random.randint(0, 1)
+# if headsOrTails == 0:
+#     print("Heads")
+# else:
+#     print("Tails")
+    
+# Lists - always start within square brackets seperated by a commer
+
+statesOfAmerica = ["Deleware", "California", "NewYork"]
+print(statesOfAmerica[-1])
+
