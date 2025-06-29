@@ -8,6 +8,8 @@
 <h2>Day 2:</h2> 
 <h3>Project: Tip Calculator</h3>
 
+![image](/ScreenShots/TipCalculator/FinalScreenshot.PNG)
+
 <h2>Day 1:</h2> 
 <h3>Project: Band Name Generator</h3>
 
