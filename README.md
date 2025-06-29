@@ -1,8 +1,8 @@
 <h2>Day 3:</h2> 
 <h3>Project: Treasure Island Adventure Game</h3>
 
-![Image](/ScreenShots/TreasureIsland.PNG)
-![image](/ScreenShots/TreasureIslandLogic.PNG)
+![Image](/ScreenShots/TreasureIsland/TreasureIsland.PNG)
+![image](/ScreenShots/TreasureIsland/TreasureIslandLogic.PNG)
 ![image](/ScreenShots/Terminal.PNG)
 
 <h2>Day 2:</h2> 
