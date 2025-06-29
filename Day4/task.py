@@ -27,3 +27,7 @@ import random
 statesOfAmerica = ["Deleware", "California", "NewYork"]
 print(statesOfAmerica[-1])
 
+# Add item to end of the list 
+statesOfAmerica.append("JakeState")
+print(statesOfAmerica[-1])
+
