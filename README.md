@@ -3,7 +3,7 @@
 
 ![Image](/ScreenShots/TreasureIsland/TreasureIsland.PNG)
 ![image](/ScreenShots/TreasureIsland/TreasureIslandLogic.PNG)
-![image](/ScreenShots/Terminal.PNG)
+![image](/ScreenShots/TreasureIsland/Terminal.PNG)
 
 <h2>Day 2:</h2> 
 <h3>Project: Tip Calculator</h3>
