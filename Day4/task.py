@@ -31,3 +31,11 @@ print(statesOfAmerica[-1])
 statesOfAmerica.append("JakeState")
 print(statesOfAmerica[-1])
 
+# print random name from list of friends
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+# 1st option
+print(random.choice(friends))
+
+# 2nd option
+randomIndex = random.randint(0, 4)
+print(friends[randomIndex])
