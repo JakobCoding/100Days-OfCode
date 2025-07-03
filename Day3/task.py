@@ -51,7 +51,7 @@ height = float(input("Please enter you height in meters: "))
 bmi = weight / height ** 2 
 
 if bmi <= 18.5:
-    print("Acording to science you are under weight!")
+    print("According to science you are under weight!")
 elif bmi <= 25:
     print("Congrats you weight is normal.. (according to science)")
 else:
@@ -76,7 +76,7 @@ elif size == "L":
 else:
     print("Sorry please enter S, M or L pizza size.")
     
-# todo: work out how much to add to their bill based on their pepporoni choice    
+# todo: work out how much to add to their bill based on their pepperoni choice    
     
 if pepperoni == "Y":
     if size == "S":
