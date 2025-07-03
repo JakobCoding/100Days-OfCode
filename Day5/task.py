@@ -23,7 +23,7 @@ print(max(student_scores)) # console = 200
 
 # finding Max value in a list using a for loop
 
-max_score = 0 # Initilise max_score to 0 
+max_score = 0 # Initialise max_score to 0 
 for score in student_scores:
     if score > max_score:
         max_score = score
