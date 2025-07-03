@@ -2,6 +2,9 @@
 
 ![image](/Wallpapers/Wallpapers/png%20wallpapers/PythonBanner.png)
 
+<h2>Day 5:</h2> 
+<h3>Project: Password Generator</h3>
+
 <h2>Day 4:</h2> 
 <h3>Project: Rock Paper Scissors</h3>
 
