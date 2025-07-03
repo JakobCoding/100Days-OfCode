@@ -30,14 +30,28 @@
 
 # print(max_score) # console = 200 
 
-# Using Range with a for loop
-for number in range(1, 11, 3):
-    print(number)
+# # Using Range with a for loop
+# for number in range(1, 11, 3):
+#     print(number)
 
-# Add up all the numbers from 1 to 100 using a for loop
-total = 0 
+# # Add up all the numbers from 1 to 100 using a for loop
+# total = 0 
+# for number in range(1, 101):
+#     total += number
+#     print(total) # console = every iteration of numbers being added = final sum 5050
+
+# print(total) # console = total amount after iterations are complete: 5050
+
+# FizzBuzz - Coding Exercise 
 for number in range(1, 101):
-    total += number
-    print(total) # console = every iteration of numbers being added = final sum 5050
+    if number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
 
-print(total) # console = total amount after iterations are complete: 5050
+
+
