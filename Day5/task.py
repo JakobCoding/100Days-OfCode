@@ -38,6 +38,6 @@ for number in range(1, 11, 3):
 total = 0 
 for number in range(1, 101):
     total += number
-    print(total)
-    
-print(total)
+    print(total) # console = every iteration of numbers being added = final sum 5050
+
+print(total) # console = total amount after iterations are complete: 5050
