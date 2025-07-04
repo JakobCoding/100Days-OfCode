@@ -11,15 +11,28 @@ num_symbols = int(input("How many symbols would you like?\n"))
 num_numbers = int(input("how many numbers would you like?\n"))
 
  
-# Easy Level
+# EASY LEVEL #
 # Initialise Password to empty string
 password = ""
-num_letters = 4
-# Use for loop to to pick characters from list 
-for char in range (1, num_letters + 1):
-	# 1 - 4 
+# Use for loop to to pick from a range of characters from letters list 
+for char in range (1, num_letters + 1): 
     random_char = random.choice(letters)
-    password = password + random_char
+    password += random_char
     
 print(password)
 	
+
+# Use for loop to to pick from a range of characters from letters list 
+for char in range (1, num_symbols + 1): 
+    random_num = random.choice(symbols)
+    password += random_char
+    
+print(password)
+
+password = ""
+# Use for loop to to pick from a range of characters from letters list 
+for char in range (1, num_letters + 1): 
+    random_char = random.choice(letters)
+    password += random_char
+    
+print(password)
