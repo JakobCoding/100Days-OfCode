@@ -7,8 +7,9 @@ symbols = ["!", "#", "$", "%", "&", "(", ")", "*", "+"]
 
 print("Welcome to the PyPassword Generator!")
 num_letters = int(input("How many letters would you like in your password?\n"))
-num_symbols = int(input("How many symbols would you like?\n"))
 num_numbers = int(input("how many numbers would you like?\n"))
+num_symbols = int(input("How many symbols would you like?\n"))
+
 
  
 # EASY LEVEL #
@@ -19,20 +20,20 @@ for char in range (1, num_letters + 1):
     random_char = random.choice(letters)
     password += random_char
     
-print(password)
+# print(password)
 	
 
 # Use for loop to to pick from a range of characters from letters list 
-for char in range (1, num_symbols + 1): 
-    random_num = random.choice(symbols)
-    password += random_char
+for num in range (1, num_numbers + 1): 
+    random_num = random.choice(numbers)
+    password += random_num
     
-print(password)
+# print(password)
 
-password = ""
+
 # Use for loop to to pick from a range of characters from letters list 
-for char in range (1, num_letters + 1): 
-    random_char = random.choice(letters)
-    password += random_char
+for sym in range (1, num_symbols + 1): 
+    random_symbol = random.choice(symbols)
+    password += random_symbol
     
 print(password)
