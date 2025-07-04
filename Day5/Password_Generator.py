@@ -10,4 +10,14 @@ num_letters = int(input("How many letters would you like in your password?\n"))
 num_symbols = int(input("How many symbols would you like?\n"))
 num_numbers = int(input("how many numbers would you like?\n"))
 
-
+ 
+# Easy Level
+# Initialise Password to empty string
+password = ""
+num_letters = 4
+# Use for loop to to pick characters from list 
+for char in range (1, num_letters + 1):
+	# 1 - 4 
+    random_char = random.choice(letters)
+    print(random_char)
+	
