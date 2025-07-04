@@ -19,5 +19,7 @@ num_letters = 4
 for char in range (1, num_letters + 1):
 	# 1 - 4 
     random_char = random.choice(letters)
-    print(random_char)
+    password = password + random_char
+    
+print(password)
 	
